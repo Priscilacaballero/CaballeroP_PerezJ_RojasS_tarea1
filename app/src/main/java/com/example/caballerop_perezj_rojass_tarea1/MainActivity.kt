@@ -3,8 +3,7 @@ package com.example.caballerop_perezj_rojass_tarea1
 // Sergio Rojas
 // Jose Perez
 
-//para las clases inciar con mayuscula ejemplo Close
-//para las funciones iniciar con minuscula y despues se contnua con palabra mayuscula ejemplo: funcionCalcular
+
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -21,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btn_kelv: Button
     private lateinit var btn_ran: Button
 
-    //todo el contenido de la funcion override Oncrete debe quedar en todas las nuevas aactividades que hagamos
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -43,20 +41,6 @@ class MainActivity : AppCompatActivity() {
         btn_fah.setOnClickListener { convertirTemp() }
         btn_kelv.setOnClickListener { convertirTemp() }
         btn_ran.setOnClickListener { convertirTemp() }
-        //btn_ran.setOnClickListener(this)
-        //btn_kelv.setOnClickListener(this)
-        //btn_fah.setOnClickListener(this)
-
-        //intent es para pasar de una actividad a otra actividad es decir a otro formulario desde otro
-        //val intent = Intent(packageContext:this, OtraActividad::class.java))
-        //OtraActividad es el backend y despues se realiza el front end de esa actividad o fomrulario o pantalla
-        //startActivity(intent)
-
-        //cuando se crea un fragmento es cambios ne la misma actividad, es decir no se crea otra actividad para hacer display de ese fragmento de esa actividad
-        //el fragment container sirve para abrir diferentes fragmentos en la misma view
-        //los fragmentos son un archivo aparte de la main activity o la actividad a la que se accede
-        
-
     }
 
     private fun convertirTemp() {
