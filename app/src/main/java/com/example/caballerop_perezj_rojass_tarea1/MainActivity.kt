@@ -1,7 +1,7 @@
 package com.example.caballerop_perezj_rojass_tarea1
 // Priscila Caballero 8-1000-2151
-// Sergio Rojas 8-
-// Jose Perez 8-
+// Sergio Rojas 8-0
+// Jose Perez 8-0
 
 
 import android.os.Bundle
