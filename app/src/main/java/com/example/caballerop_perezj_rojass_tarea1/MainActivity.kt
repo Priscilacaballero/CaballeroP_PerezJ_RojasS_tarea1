@@ -1,4 +1,9 @@
 package com.example.caballerop_perezj_rojass_tarea1
+/**
+ * Priscila Caballero, 8-1000-2151
+ * José Pérez,
+ * Sergio Rojas,
+ */
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -11,6 +16,7 @@ import android.widget.EditText
 import android.widget.Button
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+    // declarar variables
     private lateinit var txt_resultado: TextView
     private lateinit var grad_cel: EditText
     private lateinit var btn_fah: Button
@@ -41,6 +47,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_ran.setOnClickListener(this)
     }
 
+    //// Funcion para evaluar el ID del botón que fue presionado.
     @SuppressLint("SetTextI18n")
     override fun onClick(v: View?) {
         val temp = grad_cel.text.toString().toDouble()
