@@ -50,7 +50,4 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_ran -> txt_resultado.text = ct.rankine(temp).toString() + " °R"
         }
     }
-
-
-
 }
