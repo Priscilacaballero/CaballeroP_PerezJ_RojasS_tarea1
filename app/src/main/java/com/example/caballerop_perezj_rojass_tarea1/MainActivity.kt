@@ -1,5 +1,6 @@
 package com.example.caballerop_perezj_rojass_tarea1
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_ran.setOnClickListener(this)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onClick(v: View?) {
         val temp = grad_cel.text.toString().toDouble()
         when (v?.id) {
