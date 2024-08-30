@@ -1,8 +1,8 @@
 package com.example.caballerop_perezj_rojass_tarea1
 /**
  * Priscila Caballero, 8-1000-2151
- * José Pérez,
- * Sergio Rojas,
+ * José Pérez, 8-993-595
+ * Sergio Rojas, 8-993-906
  */
 
 import android.annotation.SuppressLint
